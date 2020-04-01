@@ -1,7 +1,7 @@
 SHOW DATABASES ;
 USE jpaEmDemo;
 
-CREATE TABLE cd (
+CREATE TABLE Cd (
     id INTEGER(255),
     title VARCHAR(255),
     des VARCHAR(255),
@@ -10,7 +10,7 @@ CREATE TABLE cd (
     price INTEGER(255)
 );
 
-CREATE TABLE artist(
+CREATE TABLE Artist(
     id INTEGER(255),
     first_name VARCHAR(255),
     last_name VARCHAR(255),
