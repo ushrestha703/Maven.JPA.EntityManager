@@ -14,6 +14,7 @@ public class Artist {
     String last_name;
     String instrument;
 
+    public Artist(){};
     public Artist( Long id, String first_name, String last_name, String instrument) {
         this.id = id;
         this.first_name = first_name;

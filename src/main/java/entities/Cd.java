@@ -17,6 +17,8 @@ public class Cd {
     Set<Artist> artist;
     Double price;
 
+    public Cd (){};
+
     public Cd (String title, String desc, Integer year, Set<Artist> newArtist){
 
         this.title = title;
